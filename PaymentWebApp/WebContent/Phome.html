@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Payment Management</title>
+<link rel="stylesheet" href="Views/bootstrap.min.css">
+	<script src="Components/jquery-3.6.0.min.js"></script>
+</head>
+<body class="container-fluid card" style="width:40rem;">
+	<h2 class="bg-danger text-white text-center">Payment Registration</h2>
+	
+	<form action="register" method="post">
+    <table class="table table-hover">
+       <tr>
+        <td>Customer Name</td>
+        <td><input type="text" name="cusName"></td>
+       </tr>
+       <tr>
+        <td>Customer Address</td>
+        <td><input type="text" name="cusAddress"></td>
+       </tr>
+       <tr>
+        <td>Customer Account</td>
+        <td><input type="text" name="cusAccount"></td>
+       </tr>
+       <tr>
+        <td>Time</td>
+        <td><input type="text" name="time"></td>
+       </tr>
+       <tr>
+        <td>Date</td>
+        <td><input type="text" name="date"></td>
+       </tr>
+       <tr>
+        <td><input type="submit" value="register"></td>
+        <td><input type="reset" value="cancel"></td>
+       </tr>
+    </table>
+    <a href='paymentList'>Payment List</a>
+</form>
+</body>
+</html>
